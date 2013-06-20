@@ -1,0 +1,82 @@
+.imagenAncha{
+	margin:5px;
+	width: 150px;
+	height: 100px;
+	position: relative;
+	border:5px solid #B05205;
+
+	 /* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+.imagenAlta{
+	width: 100px;
+	height: 150px;
+	border:5px solid #B05205;
+	 /* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+#galeria{
+	margin: 16px;
+}
+.imagenAncha:hover{
+	width: 150px;
+	margin:5px;
+	height: 100px;
+
+	border:5px solid #CCCCCC;
+}
+.imagenAlta:hover{
+	width: 100px;
+	margin:5px;
+	height: 150px;
+
+	border:5px solid #CCCCCC;
+}
